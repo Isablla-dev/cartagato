@@ -1,6 +1,6 @@
 # Informe QA
 
-##Requerimientos
+## Requerimientos
 *La imagen debe ser un gato y circular
 *debe permitir cerrar la tarjeta al presionar X
 *Debe tener 3 divisiones a modo de filas en donde la mitad es más grande y los otros 2 del mismo tamaño
@@ -13,7 +13,7 @@
 - [x] debe tener interactividad de js
 - [x] El diseño debe ser igual al ejemplo
 
- ##Plan de trabajo
+ ## Plan de trabajo
  Verificación de layout y diseño: El diseño se realiza de buena manera
  Verificación de funcionalidad: La funcionalidad está bien
  Verificación de compatibilidad: Funciona en los 2; PC y celular
