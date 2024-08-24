@@ -2,8 +2,7 @@ const catImage = document.getElementById('catImage');
 const catData = document.getElementById('catData');
 const closeButton = document.getElementById('closeButton');
 
-
-const newImageUrl = '../img/gatoblanco.png'; 
+const newImageUrl = '/img/gatoblanco.png'; 
 const newData = {
     edad: '5 años',
     colorojos: 'Verde',
@@ -15,6 +14,7 @@ function closeCard() {
     document.querySelector('.tarjeta').style.display = 'none';
 }
 
+
 function changeImageAndData() {
     catImage.style.backgroundImage = `url(${newImageUrl})`;
     catData.innerHTML = `
@@ -24,5 +24,8 @@ function changeImageAndData() {
     `;
 }
 
+
 closeButton.addEventListener('click', closeCard);
+
+
 catImage.addEventListener('click', changeImageAndData);
